@@ -104,9 +104,9 @@ _start:
 	   that isn't able to be masked occurring or due to system management
 	   mode.
 	*/
-        cli
+	cli
 1:      hlt
-        jmp 1b
+	jmp 1b
 
 /*
    Set the size of the _start label to the current location '.' minus its
