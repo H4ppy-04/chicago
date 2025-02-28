@@ -1,0 +1,11 @@
+				DEVELOPMENT LOG
+
+Fri Feb 28 10:38:45 PM (AEDT) 2025
+I'm renaming the entire project.  It turns out, after reading more on operating
+systems development, I have realized that indeed, I did not consider what
+happens when other people start to join. I cannot name it after myself, because
+that would be condescending, self-absorbed, and a bunch of other words that I
+don't want to associate myself with.  As such, I'm renaming it to Chicago,
+until I can find a more suitable name.
+
+I've deleted the repo in which this code was attached, and I'm starting anew.

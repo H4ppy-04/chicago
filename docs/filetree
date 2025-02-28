@@ -1,0 +1,6 @@
+src/boot.s
+
+	This file contains the system multi-boot header to ensure that the
+	bootloader can recognize the OS. It is essentially a bootstrap assembly
+	stub that sets up the processor such that higher level languages than
+	itself (such as C or C++) can be used.
