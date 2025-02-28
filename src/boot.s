@@ -1,5 +1,5 @@
 /* multi boot header constants */
-.set ALIGN,	1<<0             /* align loaded modules on page boundaries                   */
+.set ALIGN,     1<<0             /* align loaded modules on page boundaries                   */
 .set MEMINFO,   1<<1             /* memory map                                                */
 .set FLAGS,     ALIGN | MEMINFO  /* multi boot 'flag' value                                   */
 .set MAGIC,     0x1BADB002       /* allows bootloader to find the header                      */
@@ -104,9 +104,9 @@ _start:
 	   that isn't able to be masked occurring or due to system management
 	   mode.
 	*/
-	cli
+        cli
 1:      hlt
-	jmp 1b
+        jmp 1b
 
 /*
    Set the size of the _start label to the current location '.' minus its
