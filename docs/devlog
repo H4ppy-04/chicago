@@ -14,5 +14,7 @@ I've deleted the repo in which this code was attached, and I'm starting anew.
 
 Sat Mar  1 10:41:39 PM AEDT 2025
 I'm currently testing GPG keys so some commits might disappear. Any commits
-that are modified do not touch the main code.
+that are modified do not touch the main code. I'm also experimenting with
+sending emails with Git, and possibly integrating that into the VCS
+component of this project.
 
